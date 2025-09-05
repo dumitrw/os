@@ -3,25 +3,6 @@ import { type Processes } from "contexts/process/types";
 import { FOLDER_ICON, TASKBAR_HEIGHT } from "utils/constants";
 
 const directory: Processes = {
-  BoxedWine: {
-    Component: dynamic(() => import("components/apps/BoxedWine")),
-    allowResizing: false,
-    backgroundColor: "#000",
-    defaultSize: {
-      height: 480,
-      width: 640,
-    },
-    dependantLibs: ["/Program Files/BoxedWine/boxedwine.wasm"],
-    icon: "/System/Icons/boxedwine.webp",
-    libs: [
-      "/Program Files/BoxedWine/browserfs.boxedwine.js",
-      "/Program Files/BoxedWine/boxedwine-shell.js",
-      "/Program Files/BoxedWine/boxedwine.js",
-    ],
-    lockAspectRatio: true,
-    singleton: true,
-    title: "BoxedWine",
-  },
   Browser: {
     Component: dynamic(() => import("components/apps/Browser")),
     backgroundColor: "#FFF",
@@ -135,17 +116,7 @@ const directory: Processes = {
     ],
     title: "Marked",
   },
-  Messenger: {
-    Component: dynamic(() => import("components/apps/Messenger")),
-    backgroundColor: "#242526",
-    defaultSize: {
-      height: 500,
-      width: 425,
-    },
-    icon: "/System/Icons/messenger.webp",
-    singleton: true,
-    title: "Messenger",
-  },
+
   MonacoEditor: {
     Component: dynamic(() => import("components/apps/MonacoEditor")),
     backgroundColor: "#1E1E1E",

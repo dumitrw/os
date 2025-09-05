@@ -92,12 +92,6 @@
     - `/?url=/CREDITS.md`
     - `/?app=Browser`
 
-# Apps 🧪
-
-### [BoxedWine](http://www.boxedwine.org/) (**_.exe, .zip_**)
-
-- Runs 16/32-bit Windows applications
-
 ### Browser (**_.htm, .html_**)
 
 - Loads websites (_w/CORS support_)
@@ -132,12 +126,6 @@
 ### [Marked](https://marked.js.org/) (**_.md_**)
 
 - Markdown Viewer
-
-### Messenger
-
-- Encrypted direct messaging client
-- Utilizes [Nostr Protocol](https://nostr.com/) ([NIP-04](https://github.com/nostr-protocol/nips/blob/master/04.md))
-- Automatic public/private key creation
 
 ### [Monaco Editor](https://microsoft.github.io/monaco-editor/)
 
